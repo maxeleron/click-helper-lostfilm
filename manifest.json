@@ -1,0 +1,23 @@
+{
+    "name": "click-helper-lostfilm",
+    "description": "Click on 1080 download link auto",
+    "version": "0.1",
+    "permissions": [
+      "activeTab",
+      "webNavigation",
+      "tabs",
+      "http://*/*",
+      "https://*/*"
+    ],
+    "content_scripts": [
+        {
+        "matches": ["http://insearch.site/*"],
+         "js": ["click_close.js"],
+         "run_at": "document_end"
+        }
+       ],
+    "browser_action": {
+      "default_title": "Auto click download link"
+    },
+    "manifest_version": 2
+  }
