@@ -1,13 +1,9 @@
 {
     "name": "click-helper-lostfilm",
     "description": "Click on 1080 download link auto",
-    "version": "0.1",
+    "version": "0.2",
     "permissions": [
-      "activeTab",
-      "webNavigation",
-      "tabs",
-      "http://*/*",
-      "https://*/*"
+      "activeTab"
     ],
     "content_scripts": [
         {
