@@ -1,10 +1,10 @@
 'use strict'
 
-//Selector of the 1080 link, I`ve got it from 'Inspect Element'
-document.querySelector("div.inner-box--list > div:nth-child(2) > div.inner-box--link.main > a").click();
+const link1080 = document.querySelector("div.inner-box--list > div:nth-child(2) > div.inner-box--link.main > a");
+const link720 = null;
+const linkSD = null;
 
-//trick move to close insearch.site window
+link1080.click();
+
+// Trick move to close insearch.site window
 setTimeout( ()=>{window.close()}, 200);
-
-
-
